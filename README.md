@@ -1,12 +1,75 @@
-# React + Vite
+Frontend Case Study Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview
+This project is a **React-based web application** that allows users to **view a list of profiles** and explore their locations on an **interactive Google Map**. The application is designed to provide an intuitive and seamless experience for users, featuring **search functionality**, an **admin panel**, and **responsive design**.
 
-Currently, two official plugins are available:
+Features
+- 🔹 **Profile Listing** – Displays a list of profiles with images and descriptions.
+- 🔹 **Interactive Map** – Shows locations of profiles on Google Maps.
+- 🔹 **Summary Feature** – Clicking "Summary" highlights the profile's exact location.
+- 🔹 **Search & Filter** – Users can search profiles by name.
+- 🔹 **Admin Panel** – Enables adding, editing, and deleting profiles.
+- 🔹 **Responsive Design** – Fully mobile-friendly layout.
+- 🔹 **Error Handling** – Proper validation for missing or incorrect data.
+- 🔹 **Loading Indicators** – Shows progress when fetching data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation & Setup
 
-## Expanding the ESLint configuration
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/frontend-case-study.git
+cd frontend-case-study
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Set Up Environment Variables
+Create a .env file and add your Google Maps API key:
+VITE_GOOGLE_MAPS_API_KEY=your_api_key_here
+
+4️⃣ Start the Development Server
+npm run dev
+
+Tech Stack
+React – Frontend framework
+CSS – Styled components & responsive design
+Google Maps API – Interactive map functionality
+React Router – Navigation between pages
+Vite – Optimized project setup
+Node.js & npm – Package management
+
+Folder Structure
+frontend-case-study/  
+│── public/            
+│   ├── assets/        
+│   └── index.html     
+│── src/               
+│   ├── components/    
+│   │   ├── ProfileList.jsx   
+│   │   ├── MapComponent.jsx  
+│   │   ├── AdminPanel.jsx    
+│   ├── pages/         
+│   │   ├── Home.jsx        
+│   │   ├── ProfileDetails.jsx  
+│   ├── styles/       
+│   ├── services/     
+│   ├── App.jsx        
+│   ├── main.jsx       
+│── .env               
+│── package.json       
+│── vite.config.js     
+│── README.md          
+
+Contribution & Feedback
+Fork this repository and create your own version.
+
+Submit pull requests for feature improvements.
+
+Report issues via GitHub.
+
+License
+This project is MIT Licensed, meaning it's open for use and modification.
+
+🧠 Author
+👤 Deepak Suthar
+📧 suthardeepak658@gmail.com
+🔗 www.linkedin.com/deepak-suthar-106a4924b
