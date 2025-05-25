@@ -1,0 +1,43 @@
+.admin-panel {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .admin-panel {
+    width: 100%;
+    padding: 15px;
+  }
+
+  input, select, button {
+    font-size: 14px;
+  }
+}

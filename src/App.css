@@ -1,0 +1,15 @@
+img {
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: cover !important;
+  display: block;
+  margin: auto;
+}
+
+/* Ensure uniform profile images */
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
