@@ -10,7 +10,7 @@ const defaultCenter = { lat: 20.5937, lng: 78.9629 };
 
 const MapComponent = ({ location }) => {
   return (
-    <LoadScript googleMapsApiKey="AIzaSyCdDbi2TbOuuRlr2OtefCkoFu7JzlouXGA">
+    <LoadScript googleMapsApiKey="Your API key">
       <GoogleMap mapContainerStyle={mapContainerStyle} zoom={10} center={location || defaultCenter}>
         {location && <Marker position={location} />}
       </GoogleMap>
